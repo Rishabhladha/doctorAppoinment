@@ -10,11 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-<<<<<<< HEAD
     origin: ['https://doctor-appoinment-eta.vercel.app', 'http://localhost:5173'],
-=======
-    origin: ['https://doctorappoinment-89og.onrender.com', 'http://localhost:5173'],
->>>>>>> 465f868c40c95214a9627f29f3e7c515f9b7aef0
     credentials: true
 }));
 
