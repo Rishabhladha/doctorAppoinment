@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['https://ca-doctor.onrender.com', 'http://localhost:5173'],
+    origin: ['https://doctorappoinment-89og.onrender.com', 'http://localhost:5173'],
     credentials: true
 }));
 
